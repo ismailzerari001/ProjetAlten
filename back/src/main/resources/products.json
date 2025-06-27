@@ -1,0 +1,71 @@
+[ {
+  "id" : 3,
+  "name" : "produt",
+  "description" : "test",
+  "category" : "Electronics",
+  "price" : 20.0,
+  "quantity" : 3025
+}, {
+  "id" : 4,
+  "name" : "Ordinateur Portable ismai",
+  "description" : "Dell Latitude",
+  "category" : null,
+  "price" : 200.0,
+  "quantity" : 3025
+}, {
+  "id" : 5,
+  "name" : "testt 00222",
+  "description" : "tesst",
+  "category" : "",
+  "price" : 250.0,
+  "quantity" : 0
+}, {
+  "id" : 6,
+  "name" : "IPHONE",
+  "description" : "IPHONE ISMAIL",
+  "category" : "Electronics",
+  "price" : 299.99,
+  "quantity" : 0
+}, {
+  "id" : 7,
+  "name" : "prodd",
+  "description" : "testtt",
+  "category" : "Clothing",
+  "price" : 2500.0,
+  "quantity" : 0
+}, {
+  "id" : 8,
+  "name" : "lg 200",
+  "description" : "2000",
+  "category" : "Accessories",
+  "price" : 2000.0,
+  "quantity" : 0
+}, {
+  "id" : 9,
+  "name" : "nokia",
+  "description" : "2000",
+  "category" : "Accessories",
+  "price" : 122.0,
+  "quantity" : 0
+}, {
+  "id" : 10,
+  "name" : "aaaa",
+  "description" : "test 500\n",
+  "category" : "Accessories",
+  "price" : 50000.0,
+  "quantity" : 0
+}, {
+  "id" : 11,
+  "name" : "aaaa",
+  "description" : "test 500\n",
+  "category" : "Accessories",
+  "price" : 50000.0,
+  "quantity" : 0
+}, {
+  "id" : 12,
+  "name" : "az",
+  "description" : "az",
+  "category" : "Accessories",
+  "price" : 250.0,
+  "quantity" : 0
+} ]

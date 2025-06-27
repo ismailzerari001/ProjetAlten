@@ -1,0 +1,29 @@
+<div class="p-m-4">
+  <h2>Mon Panier</h2>
+
+  <!-- Panier vide -->
+  <div *ngIf="cartService.count() === 0">
+    <p>Votre panier est vide.</p>
+  </div>
+
+  <!-- Liste des produits -->
+  <div *ngFor="let item of cartService.cartItems()" class="p-card p-mb-2">
+    <div class="p-card-body">
+      <h3>{{ item.name }}</h3>
+      <p>Prix : {{ item.price }} MAD</p>
+
+      <button
+        pButton
+        type="button"
+        label="Supprimer"
+        class="p-button-danger"
+        (click)="removeProduct(item.id!)"
+      ></button>
+    </div>
+  </div>
+
+  <!-- Total -->
+  <div class="p-mt-4" *ngIf="cartService.count() > 0">
+    <strong>Total : {{ cartService.getTotal() }} MAD</strong>
+  </div>
+</div>

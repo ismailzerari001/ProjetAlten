@@ -1,0 +1,66 @@
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 1.5rem;
+  max-width: 700px;
+  margin: auto;
+
+  .form-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+
+  ::ng-deep .p-inputtext,
+  ::ng-deep .p-inputnumber-input,
+  ::ng-deep .p-dropdown {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 6px;
+  }
+
+  ::ng-deep .p-dropdown {
+    min-height: 42px;
+  }
+
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+  }
+
+  ::ng-deep .p-button {
+    min-width: 120px;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+}
+
+.p-dropdown-panel {
+  z-index: 3000 !important;
+  background-color: white !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+:host ::ng-deep .create-button .p-button {
+  background-color: #1976d2;
+  color: white;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border: none;
+}
+
+:host ::ng-deep .create-button .p-button:hover {
+  background-color: #1565c0;
+}

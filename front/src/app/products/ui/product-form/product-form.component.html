@@ -1,0 +1,33 @@
+<form #form="ngForm" (ngSubmit)="onSave()" class="product-form">
+  <div class="form-field">
+    <label for="name">Nom</label>
+    <input pInputText type="text" id="name" name="name" [(ngModel)]="editedProduct().name" required />
+  </div>
+
+  <div class="form-field">
+    <label for="price">Prix</label>
+    <p-inputNumber [(ngModel)]="editedProduct().price" name="price" mode="decimal" required></p-inputNumber>
+  </div>
+
+  <div class="form-field">
+    <label for="description">Description</label>
+    <textarea pInputTextarea id="description" name="description" rows="4" [(ngModel)]="editedProduct().description"></textarea>
+  </div>
+
+  <div class="form-field">
+    <label for="category">Catégorie</label>
+    <p-dropdown
+      id="category"
+      name="category"
+      [options]="categories"
+      [(ngModel)]="editedProduct().category"
+      placeholder="Sélectionner une catégorie"
+      appendTo="body">
+    </p-dropdown>
+  </div>
+
+  <div class="form-actions">
+    <p-button type="button" (click)="onCancel()" label="Annuler" severity="secondary"></p-button>
+    <p-button type="submit" [disabled]="!form.valid" label="Enregistrer" severity="success"></p-button>
+  </div>
+</form>

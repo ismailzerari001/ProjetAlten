@@ -1,0 +1,35 @@
+<div class="auth-form-wrapper">
+  <div class="auth-form-container">
+    <h2>Inscription</h2>
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <div class="form-field">
+        <label for="username">Nom d'utilisateur</label>
+        <input id="username" formControlName="username" type="text" />
+      </div>
+
+      <div class="form-field">
+        <label for="firstname">Prénom</label>
+        <input id="firstname" formControlName="firstname" type="text" />
+      </div>
+
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input id="email" formControlName="email" type="email" />
+      </div>
+
+      <div class="form-field">
+        <label for="password">Mot de passe</label>
+        <input id="password" formControlName="password" type="password" />
+      </div>
+
+      <button type="submit">S’inscrire</button>
+    </form>
+
+    <p *ngIf="successMessage" class="success">{{ successMessage }}</p>
+    <p *ngIf="errorMessage" class="errorMessage">{{ errorMessage }}</p>
+ 
+    <p class="register-link">
+      Déjà inscrit ? <a routerLink="/login">Se connecter</a>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,102 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.auth-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+
+.auth-form-container {
+  width: 400px;
+  max-width: 100%;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.auth-form-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Champs du formulaire */
+.auth-form-container .form-field {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form-container label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.auth-form-container input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Bouton */
+.auth-form-container button {
+  width: 100%;
+  padding: 0.8rem;
+  font-weight: bold;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-form-container button:hover {
+  background-color: #135ba1;
+}
+
+/* Message d'erreur */
+.auth-form-container .error {
+  color: red;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.auth-form-container .register-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+body.p-overflow-hidden {
+  overflow: hidden !important;
+}
+body, .p-dialog, .p-dialog-content {
+  overflow: visible !important;
+}
+::ng-deep .p-dialog .p-dialog-content {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.success {
+  color: green;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.errorMessage {
+  color: rgb(255, 34, 0);
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+

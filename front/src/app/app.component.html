@@ -1,0 +1,40 @@
+<!-- ✅ Layout global si connecté -->
+<ng-container *ngIf="authService.isAuthenticated(); else loginLayout">
+  <p-toolbar [style]="{ height: '100px' }">
+    <div class="p-toolbar-group-start">
+      <img src="assets/icons/icon-72x72.png" alt="logo" height="40" />
+    </div>
+
+    <div class="p-toolbar-group-center">
+      {{ title }}
+    </div>
+
+    <div class="p-toolbar-group-end" style="display: flex; align-items: center; gap: 1rem;">
+      <button class="cart-button" (click)="goToCart()">
+        <i class="pi pi-shopping-cart"></i>
+        <span class="cart-badge" *ngIf="cartService.count() > 0">
+          🛒 {{ cartService.count() }}
+        </span>
+      </button>
+      <button class="logout-button" (click)="logout()">Déconnexion</button>
+    </div>
+  </p-toolbar>
+
+  <p-splitter [panelSizes]="[20, 80]" [style]="{ height: 'calc(100vh - 100px)' }">
+    <ng-template pTemplate>
+      <div class="w-full">
+        <app-panel-menu></app-panel-menu>
+      </div>
+    </ng-template>
+    <ng-template pTemplate>
+      <div class="w-full app-content">
+        <router-outlet></router-outlet>
+      </div>
+    </ng-template>
+  </p-splitter>
+</ng-container>
+<ng-template #loginLayout>
+  <div class="w-full app-content" style="height: 100vh; display: flex; justify-content: center; align-items: center;">
+    <router-outlet></router-outlet>
+  </div>
+</ng-template>

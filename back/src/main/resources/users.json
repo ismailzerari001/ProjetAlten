@@ -1,0 +1,145 @@
+[ {
+  "id" : 1,
+  "username" : "ism",
+  "firstname" : "Admin",
+  "email" : "admin@admin.com",
+  "password" : "$2a$10$SKCbl7FsvaufOI.0/O31fu48HfDwWUJzsTHglIPboeG.jD3F.X/Oq",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 2,
+  "username" : "test",
+  "firstname" : "test2",
+  "email" : "frer@pro.com",
+  "password" : "$2a$10$IATqwxq5MD3dJ4XgTfPzzObAFwUmMDH2c9e0wDhy0gqOJjYwDgb4q",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 3,
+  "username" : "test137",
+  "firstname" : "test137",
+  "email" : "test137@gmail.com",
+  "password" : "$2a$10$qkjpAiWu.TAPEpJGiZIEauqj1wq67D.t./ribLNsUxrkRGuKuK9XO",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 4,
+  "username" : "test",
+  "firstname" : "test2",
+  "email" : "admin1@admin.com",
+  "password" : "$2a$10$hhL4Cy8RUZJQj6TFhF3ezuo9Ng/kqSqec/KLjw9mFyirOv/zIEN2.",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 5,
+  "username" : "raja",
+  "firstname" : "new",
+  "email" : "new@new.com",
+  "password" : "$2a$10$6IXZJZ0z43BwlgDgKuyjueEj.DyuAWpufzQwYrFKAQ.ZV38NBzoBO",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 6,
+  "username" : "test",
+  "firstname" : "001",
+  "email" : "test01@test.com",
+  "password" : "$2a$10$D11tCb5Nl2wLMxnmJ5r3MO9rPAmwqFMOZG/7X4K2u6u5Vw7hcu52y",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 7,
+  "username" : "ism",
+  "firstname" : "ail",
+  "email" : "ism@gmail.com",
+  "password" : "$2a$10$3WqgBjB.sHrOjA/.w4fOY.H7ceT9U2uMevK0CnWmgs.FeFwM4ZSka",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 8,
+  "username" : "ismaze",
+  "firstname" : "ail",
+  "email" : "ism112@gmail.com",
+  "password" : "$2a$10$wy3YwKE8mrcF7L38yNS5T.F2aCn7P98nF7TRWKzIJOH8b7aLDjQa.",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 9,
+  "username" : "ninnn",
+  "firstname" : "ninini",
+  "email" : "kilom@kilo.com",
+  "password" : "$2a$10$2HlJOvA8omM40BJ7PZrPUexlc.VT.ZRZL6th7tjzd2/zzVb6Zdq9W",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 10,
+  "username" : "ninnn",
+  "firstname" : "ninini",
+  "email" : "kilomm@kilo.com",
+  "password" : "$2a$10$HGoREeuJJN/lWQxHKtsuWe63jzc7.4ax1/3D73WwEIOy1Sv0Y0jea",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 11,
+  "username" : "ninnn",
+  "firstname" : "ninini",
+  "email" : "kilogmm@kilo.com",
+  "password" : "$2a$10$55k.6iYdTAO.Fs1QisJepuMMkQnrq9TL4/xMohMJUXloIMn4x5sly",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 12,
+  "username" : "ninnn",
+  "firstname" : "ninini",
+  "email" : "kilogmmb@kilo.com",
+  "password" : "$2a$10$30eCb7XD4L4x1vu.nS23n.nV4KpzhQLypqF6o6AQqal4DDnwPiszi",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 13,
+  "username" : "vv",
+  "firstname" : "az",
+  "email" : "ismz22@gmail.com",
+  "password" : "$2a$10$rh2owzLUdOxxkJvi3WuTiOKJ9dTT1q1suuH2nTpyxT2OxyLnhrcpy",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 14,
+  "username" : "vv",
+  "firstname" : "az",
+  "email" : "123@gmail.com",
+  "password" : "$2a$10$is4191kybef3/VWfR8tR2ul0ZX.6Kvr3TnUKSmVL8lB4w9mvKx/gG",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 15,
+  "username" : "nom",
+  "firstname" : "pre",
+  "email" : "pre.te@gmail.com",
+  "password" : "$2a$10$AucraqXEFLWxZxwUojm4RuDu3Bgry0c2rvClifXvK6KM6qMPIHpuS",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 16,
+  "username" : "te123",
+  "firstname" : "tesr",
+  "email" : "mplo@gm.com",
+  "password" : "$2a$10$nFfpYpShKLOXmKWGTPtmj.ZZcYzyORCnZqtApocxTb9qpUJiXTpZS",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 17,
+  "username" : "uti",
+  "firstname" : "pre",
+  "email" : "mm@oo.co",
+  "password" : "$2a$10$8MSewQIErWE6.vPV6NmULerRzJ8Kjs4rjsHl8oQXgn8FOJW8ZuY3S",
+  "cartItems" : null,
+  "wishlistItems" : null
+}, {
+  "id" : 18,
+  "username" : "asss",
+  "firstname" : "asss",
+  "email" : "admin8558@admin.com",
+  "password" : "$2a$10$/uAmzCrox6OKP6mhwx3Qj.DvjceNawKhft/D3LqPqsKQmDHkZxh1W",
+  "cartItems" : null,
+  "wishlistItems" : null
+} ]
